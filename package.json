@@ -4,26 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon exec node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaisman75/mern-exp-dev.git"
+    "url": "git+https://github.com/kaisman75/mern_exp_dev.git"
   },
   "author": "kais manai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaisman75/mern-exp-dev/issues"
+    "url": "https://github.com/kaisman75/mern_exp_dev/issues"
   },
-  "homepage": "https://github.com/kaisman75/mern-exp-dev#readme",
+  "homepage": "https://github.com/kaisman75/mern_exp_dev#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mogoose": "0.0.1-security",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
     "nodemon": "^2.0.12"
   }
 }
